@@ -1,0 +1,15 @@
+[package]
+name = "newsplatfrm"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x31e76a8a7446574eecbdaa96f3b253676f8e683b9f703bbb92ead6e6b2aee800"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
